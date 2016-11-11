@@ -1,0 +1,10 @@
+framework module GifMaker {
+  umbrella header "GifMaker.h"
+
+  export *
+  module * { export * }
+}
+
+module GifMaker.Swift {
+    header "GifMaker-Swift.h"
+}
